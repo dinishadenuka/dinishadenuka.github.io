@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinisha Denuka — Data Analyst</title>
+  <meta
+    name="description"
+    content="Portfolio of Dinisha Denuka, Data Analyst (MS Business Analytics, Trine University). Projects in SQL, Python, Tableau, Power BI, R, and SAS."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="nav-brand" href="#top">Dinisha Denuka</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1>Dinisha Denuka</h1>
+      <p class="hero-tagline">Data Analyst &middot; SQL &middot; Python &middot; Tableau &middot; Power BI &middot; R</p>
+      <p class="hero-sub">
+        MS in Business Analytics, Trine University &mdash; Data Analyst Intern at Tek Advo
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a
+          class="btn btn-ghost"
+          href="https://linkedin.com/in/dinisha-denuka"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <!-- GitHub link: href is filled from GITHUB_USERNAME in the script at the
+             bottom of this page; the static href below is the fallback. -->
+        <a
+          class="btn btn-ghost"
+          data-github=""
+          href="https://github.com/dinishadenuka"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="about-card">
+        <p>
+          I'm Dinisha Denuka, a Data Analyst with an MS in Business Analytics from
+          Trine University. I currently work as a Data Analyst Intern at Tek Advo,
+          building dashboards and reports.
+        </p>
+        <p>
+          I turn raw data into clear, decision-ready insights &mdash; from predictive
+          models and interactive dashboards to financial models and data stories
+          that non-technical audiences can act on.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="section-lead">
+        A selection of analytics work across predictive modeling, dashboard
+        design, and financial modeling.
+      </p>
+
+      <div class="cards">
+        <!-- Project 1 -->
+        <article class="card">
+          <img
+            class="card-img"
+            src="assets/seoul-shiny-dashboard.png"
+            alt="R Shiny dashboard predicting Seoul bike-sharing demand from weather data"
+            loading="lazy"
+          />
+          <div class="card-body">
+            <h3>Seoul Bike-Sharing Demand Prediction</h3>
+            <p>
+              Predicting hourly bike-sharing demand in Seoul from weather
+              conditions &mdash; combining rental records, live OpenWeather API
+              feeds, and web-scraped global bike-system data into tuned
+              regression models (compared on RMSE and R&sup2;) and an interactive
+              R Shiny + Leaflet dashboard. Temperature emerged as the strongest
+              demand driver. <em>IBM Applied Data Science with R capstone.</em>
+            </p>
+            <ul class="tags" aria-label="Tools used">
+              <li>R</li>
+              <li>SQL</li>
+              <li>Shiny</li>
+              <li>Predictive Modeling</li>
+            </ul>
+            <a
+              class="card-link"
+              data-github="/seoul-bike-sharing-demand"
+              href="https://github.com/dinishadenuka/seoul-bike-sharing-demand"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub &rarr;</a
+            >
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <img
+            class="card-img"
+            src="assets/chicago-dashboard-4panel.png"
+            alt="Four-panel Tableau dashboard of Chicago beach water quality"
+            loading="lazy"
+          />
+          <div class="card-body">
+            <h3>Chicago Beach Water-Quality Dashboard</h3>
+            <p>
+              Interactive Tableau dashboard and storyboard built on the City of
+              Chicago's automated beach water-quality sensor data &mdash;
+              translating raw sensor readings into answers about when and where
+              it's safe to swim: beach rankings, seasonal trends, safety-limit
+              exceedances, and environmental drivers. Designed with Gestalt
+              principles of visual perception.
+              <em>Trine University Business Analytics capstone.</em>
+            </p>
+            <ul class="tags" aria-label="Tools used">
+              <li>Tableau</li>
+              <li>Dashboard Design</li>
+              <li>Data Storytelling</li>
+            </ul>
+            <a
+              class="card-link"
+              data-github="/chicago-beach-water-quality"
+              href="https://github.com/dinishadenuka/chicago-beach-water-quality"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub &rarr;</a
+            >
+          </div>
+        </article>
+
+        <!-- Project 3 (text card — no image) -->
+        <article class="card">
+          <div class="card-visual card-visual--excel" aria-hidden="true">
+            <div class="excel-chart">
+              <span style="--h: 35%"></span>
+              <span style="--h: 55%"></span>
+              <span style="--h: 45%"></span>
+              <span style="--h: 70%"></span>
+              <span style="--h: 100%"></span>
+            </div>
+            <p class="excel-caption">Excel &middot; Financial Model</p>
+          </div>
+          <div class="card-body">
+            <h3>Retirement Planning Financial Model</h3>
+            <p>
+              End-to-end Excel financial model that projects retirement savings
+              from adjustable inputs &mdash; age, retirement age, life
+              expectancy, savings rate, and returns &mdash; and delivers a
+              sufficiency verdict. Example scenario: retire at 65 with
+              ~$986,614 in projected savings &rarr; <strong>SUFFICIENT</strong>.
+              Built across a four-part Financial Modeling course project with
+              influence chart and full documentation.
+            </p>
+            <ul class="tags" aria-label="Tools used">
+              <li>Excel</li>
+              <li>Financial Modeling</li>
+              <li>Scenario Analysis</li>
+            </ul>
+            <a
+              class="card-link"
+              data-github="/retirement-planning-model"
+              href="https://github.com/dinishadenuka/retirement-planning-model"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub &rarr;</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages &amp; Data</h3>
+          <ul class="tags">
+            <li>SQL</li>
+            <li>Python</li>
+            <li>R</li>
+            <li>SAS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>BI &amp; Visualization</h3>
+          <ul class="tags">
+            <li>Tableau</li>
+            <li>Power BI</li>
+            <li>Excel</li>
+            <li>R Shiny</li>
+            <li>ggplot2</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Techniques</h3>
+          <ul class="tags">
+            <li>Predictive Modeling</li>
+            <li>Regression</li>
+            <li>Data Wrangling</li>
+            <li>Dashboard Design</li>
+            <li>Data Storytelling</li>
+            <li>Financial Modeling</li>
+            <li>Scenario Analysis</li>
+            <li>Web Scraping</li>
+            <li>APIs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p class="section-lead">
+        I'm seeking Business Analyst / Data Analyst roles &mdash; let's connect.
+      </p>
+      <div class="hero-cta">
+        <a
+          class="btn btn-primary"
+          href="https://linkedin.com/in/dinisha-denuka"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a
+          class="btn btn-secondary"
+          data-github=""
+          href="https://github.com/dinishadenuka"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Dinisha Denuka &middot; Built with HTML &amp; CSS</p>
+  </footer>
+
+  <script>
+    // ================================================================
+    // GITHUB USERNAME — change this in ONE place.
+    // Every GitHub link on this page (profile + project repos) is built
+    // from this value. Project links use the `data-github` attribute
+    // (e.g. data-github="/my-repo" -> https://github.com/USER/my-repo).
+    // ================================================================
+    const GITHUB_USERNAME = "dinisha-denuka";
+
+    document.querySelectorAll("[data-github]").forEach((el) => {
+      const path = el.getAttribute("data-github") || "";
+      el.href = "https://github.com/" + GITHUB_USERNAME + path;
+    });
+  </script>
+</body>
+</html>
